@@ -1,0 +1,20 @@
+{
+  "id": 866,
+  "title": "Inventory Scan Drone Payload Release",
+  "repository_slug": "inventory-scan-drone-payload-release",
+  "category": "Drones",
+  "platform": "Arduino Nano 33 BLE",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "Wi-Fi",
+  "components": [
+    "GPS module",
+    "telemetry radio"
+  ],
+  "scope": "Build a drones prototype that uses GPS module, telemetry radio to release a lightweight payload at a target. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Payload Release demonstration with repeatable test steps",
+  "mode": "closed_loop_control",
+  "entrypoint": "firmware/inventory-scan-drone-payload-release/inventory-scan-drone-payload-release.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
